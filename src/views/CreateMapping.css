@@ -1,0 +1,34 @@
+.headgrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50%;
+}
+
+.main {
+  display: grid;
+}
+
+.map {
+  grid-column-start: 1;
+  padding-left: 3%;
+  padding-top: 4%;
+}
+
+/* Toolbar */
+
+.head {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  height: 50px;
+}
+
+.text {
+  display: flex;
+  position: sticky;
+}
+
+.tenKField {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
